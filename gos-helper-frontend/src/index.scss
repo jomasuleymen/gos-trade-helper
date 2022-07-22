@@ -1,0 +1,15 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+}
+#root {
+	margin: 0;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+}

@@ -1,0 +1,66 @@
+.protocol-container {
+	height: 100%;
+	width: 90vw;
+	min-width: 900px;
+	margin: 10px auto;
+	border-radius: 7px;
+	display: flex;
+	justify-content: center;
+	gap: 2vmin;
+
+	.left,
+	.right {
+		display: flex;
+		flex-direction: column;
+		gap: 1vmin;
+	}
+
+	.left > div,
+	.right > div {
+		border-radius: 7px;
+		padding: 1vmin;
+		border: 0.5px solid rgb(228, 228, 228);
+		background-color: white;
+	}
+
+	.left {
+		width: 1100px;
+		flex: 1;
+		.protocol-statuses {
+			text-align: center;
+		}
+
+		.protocol-result {
+			flex: 1;
+
+			.selected-row {
+				background-color: #f7f2e5;
+			}
+
+			.ant-empty {
+				display: none;
+			}
+		}
+	}
+
+	.right {
+		flex-basis: 300px;
+		height: max-content;
+		position: sticky;
+		top: 10px;
+
+		& > div {
+			padding: 10px;
+		}
+	}
+
+	.ant-divider {
+		border-top: 1px solid rgba(0, 0, 0, 0.13);
+	}
+
+	.ant-descriptions-item-label,
+	.ant-table-thead.ant-table-cell {
+		background-color: #f9f9f9;
+		border-right: 0.5px solid #eaeaea;
+	}
+}

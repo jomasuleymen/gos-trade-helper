@@ -1,0 +1,32 @@
+header {
+	a {
+		min-width: 80px;
+		display: inline-block;
+		text-align: center;
+		height: 100%;
+		color: white;
+		padding: 0 15px;
+		&:hover {
+			color: white;
+		}
+	}
+
+	.selected {
+		background-color: #2391fc;
+	}
+}
+
+.title {
+	margin: 0 !important;
+	font-size: 12px;
+
+	&::before {
+		content: "*";
+		color: red;
+		margin-right: 2px;
+	}
+}
+
+.list-item {
+	margin-bottom: 1.5vh;
+}
