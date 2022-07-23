@@ -1,5 +1,24 @@
-![alt text](images/generateAnnoExcel.png);
-![alt text](images/annoExcel.png);
-![alt text](images/protocol1.png);
-![alt text](images/protocol2.png);
-![alt text](images/protocol3.png);
+#### Помощник инструмент для госзакупщика для 
+## Объявления
+- Поиск опубликованные объявлений
+- Поиск по наименование лота, номер объявлений, способ закупки, признак закупки
+- Возможность фильтровать лоты по КП ВЭД(для отечественных производителей товаров, работ, услуг (Индустриальный сертификат))
+- Скачать все найденные объявление в формате excel(zipped)
+
+## Протокол
+- Возможность посмотреть все протоколы одновременно
+- Возможность выделение участника по БИН/ИИН/ИНН
+- Показать общие данные протокола выделенного участника
+
+###### Страница объявление
+![generateAnnoExcel](images/generateAnnoExcel.png)
+###### Все объявления по дате оканчание
+![folders](images/folders.png)
+###### Объявления из папки
+![files](images/files.png)
+###### Объявление в ексель формате
+![annoExcel](images/annoExcel.png)
+###### Страница протокола
+![protocol1](images/protocol1.png)
+![protocol2](images/protocol2.png)
+![protocol3](images/protocol3.png)
